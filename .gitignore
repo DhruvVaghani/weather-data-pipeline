@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Airflow virtual environment (if you used it)
+airflow/
+
+# DBT auto-generated folders
+dbt/logs/
+dbt/target/
+
+# Local env files
+.env
+
+# Docker volumes and system folders
+postgres/data/
+postgres_data/
+var/
+
+# VSCode + WSL system files
+.vscode-server/
+.cache/
+.history/
+.bash_history
+.motd_shown
+.profile
